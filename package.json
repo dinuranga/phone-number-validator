@@ -1,19 +1,15 @@
 {
-  "name": "phone-number-validator",
+  "name": "validator",
   "version": "1.0.0",
-  "description": "Sri Lanka Phone Number Validator API",
+  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "keywords": [
-    "phone number validator",
-    "sri lanka phone number",
-    "phone validator"
-  ],
-  "author": "Maleesha Dinuranga",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
